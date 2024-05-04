@@ -86,7 +86,7 @@ if (!file)
 
 for (int i = 0; i < lenght; i++)
     {
-      printf("%s(%s):%d\n",coasters[i].name,coasters[i].world,coasters[i].time);
+      fprintf(file, "%s(%s):%d\n",coasters[i].name,coasters[i].world,coasters[i].time);
     }
     fclose(file);
 
