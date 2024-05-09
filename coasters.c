@@ -48,8 +48,6 @@ char line[102]; // for \n and \0
 roll coasters[20];
 int lenght=0;
 
-//while (fgets(line, sizeof(line), stdin)) check it
-
 while (fgets(line, sizeof(line), file))
 {
     line[strlen(line) - 1] = '\0';
